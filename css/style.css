@@ -361,13 +361,11 @@ text-align: center;
   -webkit-text-fill-color: transparent;
   margin-right: 10px;
   margin-top: 20px;
-
 }
 
 
 .heart-ctn-a:hover {
   z-index: 0;
-
 }
 
 
@@ -714,7 +712,11 @@ font-weight: 700;
 
 
 /*  Media Queries */
-
+@media  (max-width: 375px){
+  .card-subtitle, .price {
+    font-size: 13px;
+  }
+}
 
 @media (min-width: 700px) {
   .banner {
@@ -726,7 +728,6 @@ font-weight: 700;
   }
   #main  {
     flex-direction: column;
-
   }
 }
 
